@@ -1,24 +1,28 @@
-//ATH ! þarf að
 .navigation {
   width: 100%;
+  margin-bottom:-50px;
+  //Transparent background START
+  background-color: #333;//gera transparrent
+  border: 1px solid #333;
+  opacity:0.9;
+  //Transparent background END
   
-  background-color: black;
-  border: 1px solid black;
-  4
-  filter: alpha(opacity=60); /* For IE8 and earlier */
- 
- 
+  //til að gera stykki Navigation START
+  position: sticky;
+  top: 0; 
+  //til að gera stykki Navigation END
  
   color: $font-color-nav;
   display: flex;
   justify-content: space-between;
+  
   &__title {
 	padding:5px;
 	font-size:$h1_font_size;
-	
   }
+ 
   &__buttons {
-    margin-right:1.250em;
-    padding:5px; 
+    margin-right:0.250em;
+    padding:6px; 
   }
 }
