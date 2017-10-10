@@ -31,17 +31,40 @@ html {
 img {
   width: 100%; }
 
-/**----------------------------------------------------------------------------------
-Til að byrja með við ætlum að reyna að hafa allar breytur i þessu skjali 
-E.I stærð skjárs,stærð texta, útlit texta , margin. Ástæðan fyrir þetta er að það getur 
-komið oft fyrir að margir aðilar  að vinna i mismunandi pörtum á siðu (lika aðrar siður) 
-þá gera þeir sinar eigin stærið en svo er hægt að lenda i þetta mun ekki lita eins á 
-öllum siðum E.I 3 mismunandi margin reglur, texta stærðir .... 
-Notar breytur úr þessu skjali og ef það er ekki til þá bæta hana við i þetta skjal
------------------------------------------------------------------------------------**/
+.button {
+  width: 6.250em;
+  cursor: pointer;
+  padding: 0.625em 0.3125em 0.625em 0.3125em;
+  Color: white;
+  border: 1px solid rbg(102, 102, 102);
+  background-color: rbg(102, 102, 102);
+  text-decoration: none; }
+
+/*
+
+
+border-radius: 0.25em;
+color:#eee;
+
+white-space: nowrap; 
+text-overflow: ellipsis;
+overflow: hidden;
+font-family: Lato, helvetica,arial,sans-serif;
+font-size:1em;
+
+
+text-align:center;
+	
+*/
+.headder {
+  width: 100%;
+  height: 60em;
+  background: transparent url(../img/bg.jpg) no-repeat fixed 50% 50%;
+  background-size: cover; }
+
 .navigation {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
   color: #FFFFFF;
   display: flex;
   justify-content: space-between; }
@@ -49,4 +72,5 @@ Notar breytur úr þessu skjali og ef það er ekki til þá bæta hana við i �
     padding: 5px;
     font-size: 1.5em; }
   .navigation__buttons {
+    margin-right: 1.250em;
     padding: 5px; }

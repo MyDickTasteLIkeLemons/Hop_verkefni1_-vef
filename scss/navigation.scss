@@ -1,7 +1,7 @@
 //ATH ! þarf að
 .navigation {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9); //laga þetta af seinna
+  background-color: black; //laga þetta af seinna
   color: $font-color-nav;
   display: flex;
   justify-content: space-between;
@@ -11,6 +11,7 @@
 	
   }
   &__buttons {
+    margin-right:1.250em;
     padding:5px; 
   }
 }
