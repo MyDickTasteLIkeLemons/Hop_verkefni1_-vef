@@ -18,7 +18,8 @@ Notar breytur úr þessu skjali og ef það er ekki til þá bæta hana við i �
 html {
   box-sizing: border-box;
   font-size: 16px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif; }
 
 /*tryggjum að i havaða skjáar stærð sem er öll gögin okkar eru alltaf eru á grindi annars ekki byrt*/
 @media (min-width: 1200px) {
@@ -50,9 +51,9 @@ img {
   text-overflow: ellipsis;
   overflow: hidden;
   cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   text-align: center;
-  font-family: Lato, helvetica,arial,sans-serif;
   font-size: 1.96em; }
   .button:hover {
     background-color: #333;
@@ -83,7 +84,8 @@ img {
   justify-content: space-between; }
   .navigation__title {
     padding: 5px;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif; }
   .navigation__buttons {
     margin-right: 0.250em;
     padding: 6px; }
