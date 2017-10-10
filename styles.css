@@ -32,10 +32,6 @@ html {
   .hidden {
     display: none; } }
 
-@media (max-width: 600px) {
-  .hidden {
-    display: none; } }
-
 /*Allar myndir munu alltaf filla út foreldran sinn þannig wrapper um myndina ákveður stærð mynds*/
 img {
   width: 100%; }
@@ -67,9 +63,17 @@ img {
 
 .headder {
   width: 100%;
-  height: 60em;
-  background: transparent url(../img/bg.jpg) no-repeat fixed 50% 50%;
-  background-size: cover; }
+  margin-bottom: margin_for_one_hundred; }
+  .headder__content {
+    width: 100%;
+    height: 500px;
+    background: transparent url(../img/bg-subpage.jpg) no-repeat;
+    background-size: cover; }
+    .headder__content__title {
+      color: #FFFFFF;
+      font-size: 2.25em;
+      padding-top: 7em;
+      padding-left: 1em; }
 
 .navigation {
   width: 100%;

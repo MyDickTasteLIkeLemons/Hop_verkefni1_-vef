@@ -1,7 +1,19 @@
 .headder {
   width:100%;
-  height:60em;
+  margin-bottom:margin_for_one_hundred;
   
-  background: transparent url(../img/bg.jpg) no-repeat fixed 50% 50%;
-  background-size: cover;
+  &__content{
+    width:100%;
+	height:500px;
+	background: transparent url(../img/bg-subpage.jpg) no-repeat;
+	background-size:cover;
+	
+	&__title{
+		color:$font-color-nav;
+	    font-size:$h3_font_size;
+		padding-top:7em;
+		padding-left:1em;
+	}
+  }
+ 
 }
