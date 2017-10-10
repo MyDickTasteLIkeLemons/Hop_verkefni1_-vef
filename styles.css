@@ -65,6 +65,9 @@ text-align:center;
 .navigation {
   width: 100%;
   background-color: black;
+  border: 1px solid black;
+  filter: alpha(opacity=60);
+  /* For IE8 and earlier */
   color: #FFFFFF;
   display: flex;
   justify-content: space-between; }

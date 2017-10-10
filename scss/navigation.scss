@@ -1,7 +1,14 @@
 //ATH ! þarf að
 .navigation {
   width: 100%;
-  background-color: black; //laga þetta af seinna
+  
+  background-color: black;
+  border: 1px solid black;
+  4
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+ 
+ 
+ 
   color: $font-color-nav;
   display: flex;
   justify-content: space-between;
