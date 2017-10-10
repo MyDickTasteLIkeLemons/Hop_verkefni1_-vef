@@ -1,0 +1,16 @@
+//ATH ! þarf að
+.navigation {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9); //laga þetta af seinna
+  color: $font-color-nav;
+  display: flex;
+  justify-content: space-between;
+  &__title {
+	padding:5px;
+	font-size:$h1_font_size;
+	
+  }
+  &__buttons {
+    padding:5px; 
+  }
+}
