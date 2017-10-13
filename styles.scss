@@ -6,9 +6,9 @@
 *, *:before, *:after {
   box-sizing: inherit;
   padding: 0;
-  margin: 0; 
-}  
-  
+  margin: 0;
+}
+
 /*setjum border-box á allt ásamt grunn letur stærð og linubil*/
 html {
   box-sizing: border-box;
@@ -30,7 +30,7 @@ html {
 }
 /*Allar myndir munu alltaf filla út foreldran sinn þannig wrapper um myndina ákveður stærð mynds*/
 img {
-  width: 100%; 
+  width: 100%;
 }
 
 @import "scss/Grid";
@@ -40,5 +40,9 @@ img {
 @import "scss/footer";
 @import "scss/navigation";
 @import "scss/tablet";
+<<<<<<< HEAD
 
 
+=======
+@import "scss/aboutContent";
+>>>>>>> 00f430e7d51723f16d89944366b664610333ac90
