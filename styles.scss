@@ -33,9 +33,12 @@ img {
   width: 100%; 
 }
 
+@import "scss/Grid";
 @import "scss/button";
 @import "scss/headder";
 @import "scss/desktop";
 @import "scss/footer";
 @import "scss/navigation";
 @import "scss/tablet";
+
+

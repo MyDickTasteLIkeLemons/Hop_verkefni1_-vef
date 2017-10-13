@@ -1,19 +1,45 @@
 .headder {
   width:100%;
-  margin-bottom:margin_for_one_hundred;
-  
-  &__content{
-    width:100%;
-	height:500px;
-	background: transparent url(../img/bg-subpage.jpg) no-repeat;
-	background-size:cover;
-	
-	&__title{
-		color:$font-color-nav;
-	    font-size:$h3_font_size;
-		padding-top:7em;
-		padding-left:1em;
+  margin-bottom:$margin_for_one_hundred;
+  //for Kaupa and About Headder
+  &__content {
+    width: 100%;
+    height: 31.250em;
+    background: transparent url(img/bg-subpage.jpg) no-repeat;
+    background-size: cover;
+
+    &__title {
+      color: $font-color-nav;
+      font-size: $h3_font_size;
+      padding-top: 7em;
+      padding-left: 1em;
+    }
+  }
+  //for Index Headder
+  &__extra_index {
+    width: 100%;
+    height: 100vh;
+    background: transparent url(img/bg.jpg) no-repeat;
+    background-size: cover;
+	display:flex;
+
+    &__content {
+      margin: auto;
+	  &__display_1{
+	    font-size:$h1_font_size;
+		text-align: center;
+		
+	  }
+	  &__display_2{
+	    font-family: 'Roboto Slab', serif;
+	    font-size:$h4_font_size;
+		margin-bottom:1em;
+	  }
+	  &__display_3{
+	    width: 4em;
+		margin-left:3em;
+	  }
 	}
   }
- 
 }
+
