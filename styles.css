@@ -39,7 +39,8 @@ img {
 @media (min-width: 600px) {
   .page__grid {
     background-color: blue;
-    width: 100%; }
+    width: 100%;
+    margin-bottom: 50px; }
   .page__grid__row {
     display: flex;
     flex-wrap: wrap;
@@ -180,3 +181,20 @@ img {
     -webkit-animation-delay: 2.3s;
     -moz-animation-delay: 2.3s;
     animation-delay: 2.3s; }
+
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: #FFFFFF; }
+  .footer__info {
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+    border-bottom: 2px solid #999;
+    justify-content: space-around; }
+  .footer__copywrite {
+    padding-top: 2em;
+    padding-bottom: 1em; }
+    .footer__copywrite__content {
+      text-align: center;
+      color: #7a8186; }
