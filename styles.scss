@@ -34,7 +34,7 @@ img {
 }
 
 .main_content{
-  
+
   width:100%;
   margin-top:$margin_for_one_hundred;
   margin-bottom:$margin_for_eighty;
@@ -47,4 +47,5 @@ img {
 @import "scss/animations";
 @import "scss/footer";
 @import "scss/aboutContent";
+@import "scss/indexContent";
 @import "scss/kaupaContent";
