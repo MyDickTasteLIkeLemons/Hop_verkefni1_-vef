@@ -17,16 +17,20 @@
 	font-size:1em;
   } 
   
-  .offset{margin-left:10px;}
-  select{
-	margin-bottom: 1em;
-	margin-right:1em;
-	border-radius: 4px;
-	width:20%;
+  .offset {
+    margin-left:10px;
   }
-  input {
+ 
+  select {
     margin-bottom: 1em;
     margin-right: 1em;
+    border-radius: 4px;
+    width: 20%;
+  }
+  
+  input {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
 	border-radius: 4px;
 	font-size:1.5em;
   }
@@ -38,15 +42,16 @@
 
   fieldset {
     border: 0 none;
-	margin-bottom: 1em;
+    margin-bottom: 1em;
   }
 }
-.op{
-width:100%;
-display:flex;
 
-justify-content: center;
+.center_button_for_conent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+
 @media (min-width: $phone-max-width) {
 	.form_content {
 	  display:flex;
