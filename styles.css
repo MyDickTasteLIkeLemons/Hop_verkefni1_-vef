@@ -38,35 +38,8 @@ img {
 
 .main_content {
   width: 100%;
-  margin-top: 9.375em;
+  margin-top: 5em;
   margin-bottom: 5em; }
-
-@media (min-width: 600px) {
-  .page__grid {
-    width: 100%;
-    background-color: green; }
-  .page__grid__row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 3em; }
-  .page__grid__row__col-12 {
-    width: 100%; }
-  .page__grid__row__col-8 {
-    width: 66.2%; }
-  .page__grid__row__col-4 {
-    width: 32.3%; } }
-
-.test {
-  background-color: black;
-  overflow: hidden; }
-
-.test2 {
-  margin-left: 1.250em;
-  background-color: green;
-  overflow: hidden; }
-
-.test3 {
-  margin-left: 1em; }
 
 .button {
   width: 6em;
@@ -92,6 +65,10 @@ img {
   .button__um {
     background-color: #333;
     border: 1px solid #333; }
+
+.panta_extra_button {
+  font-size: 1em;
+  width: 20%; }
 
 .headder {
   width: 102%;
@@ -237,19 +214,47 @@ img {
     font-size: 0.7em; }
 
 .form_content {
-  width: 100%;
-  display: flex;
-  font-size: 1em; }
+  width: 100%; }
+  .form_content__person {
+    width: 32.4%; }
+  .form_content .person_extra_right {
+    margin-left: -0.313em; }
+  .form_content .person_extra_left {
+    padding-left: 0.500em; }
+  .form_content .resizeinput {
+    width: 100%;
+    font-size: 1em; }
+  .form_content .offset {
+    margin-left: 10px; }
   .form_content select {
     margin-bottom: 1em;
     margin-right: 1em;
-    border-radius: 5px; }
+    border-radius: 4px;
+    width: 20%; }
   .form_content input {
     margin-bottom: 1em;
     margin-right: 1em;
-    border-radius: 5px; }
+    border-radius: 4px;
+    font-size: 1.5em; }
   .form_content legend {
+    font-size: 1.5em;
     margin-bottom: 1em; }
   .form_content fieldset {
     border: 0 none;
     margin-bottom: 1em; }
+
+.op {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+@media (min-width: 400px) {
+  .form_content {
+    display: flex;
+    justify-content: space-around; } }
+
+@media (max-width: 400px) {
+  .form_content {
+    margin-left: 20px; }
+  .form_content__person {
+    width: 90%; } }

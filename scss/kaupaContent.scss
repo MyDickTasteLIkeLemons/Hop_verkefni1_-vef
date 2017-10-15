@@ -1,22 +1,38 @@
 .form_content {
   width: 100%;
-  display:flex;
   
-  font-size:1em;
-   
-   
+  &__person {
+  width: 32.4%;
+  }
+
+  .person_extra_right {
+    margin-left:-0.313em;
+  }
+
+  .person_extra_left {
+    padding-left:0.500em;
+  }
+  .resizeinput{
+    width:100%;
+	font-size:1em;
+  } 
+  
+  .offset{margin-left:10px;}
   select{
 	margin-bottom: 1em;
 	margin-right:1em;
-	border-radius: 5px;
+	border-radius: 4px;
+	width:20%;
   }
   input {
     margin-bottom: 1em;
     margin-right: 1em;
-	border-radius: 5px;
+	border-radius: 4px;
+	font-size:1.5em;
   }
-
+  
   legend {
+    font-size:1.5em;
     margin-bottom:1em;
   }
 
@@ -25,3 +41,22 @@
 	margin-bottom: 1em;
   }
 }
+.op{
+width:100%;
+display:flex;
+
+justify-content: center;
+}
+@media (min-width: $phone-max-width) {
+	.form_content {
+	  display:flex;
+	  justify-content: space-around;
+	}
+}
+@media (max-width: $phone-max-width) {
+	.form_content {
+		margin-left:20px;
+	}
+	.form_content__person{width:90%;}
+}
+
