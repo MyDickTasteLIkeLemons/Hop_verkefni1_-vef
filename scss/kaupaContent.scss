@@ -1,15 +1,27 @@
 .form_content {
   width: 100%;
+  display:flex;
   
-  
+  font-size:1em;
    
    
-   
-   
-   
- 
-   
+  select{
+	margin-bottom: 1em;
+	margin-right:1em;
+	border-radius: 5px;
+  }
+  input {
+    margin-bottom: 1em;
+    margin-right: 1em;
+	border-radius: 5px;
+  }
+
+  legend {
+    margin-bottom:1em;
+  }
+
   fieldset {
     border: 0 none;
+	margin-bottom: 1em;
   }
 }

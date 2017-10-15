@@ -5,7 +5,7 @@
     <title>Kaupa</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700i|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-	<!-- <link rel="stylesheet" href="grid.css">-->
+	<link rel="stylesheet" href="grid.css">
   </head>
   <body>
 		<!--NAVIGATION START-->
@@ -35,32 +35,47 @@
 						<legend>Persónuupplýsingar</legend>
 						
 						<label>Nafn: <br> <input type="text"></label><br>
-						<label>Kennitala: <br> <input type="text"></label><br>
-						<label>
+						<label>Kennitala: <br> <input type="text" placeholder="123456-7890"></label><br>
 							Kyn:<br>
-							<input name="ValueForSex" type="radio" value="karl">Karl<br>
-							<input name="ValueForSex" type="radio" value="karl">Kona<br>
-							<input name="ValueForSex" type="radio" value="karl">Annað<br>
-						</label>
-						<label>Simi: <br> <input type="text"></label><br>
+							<label><input name="ValueForSex" type="radio" value="kona">Kona</label><br>
+							<label><input name="ValueForSex" type="radio" value="karl">Karl</label><br>
+							<label><input name="ValueForSex" type="radio" value="annad">Annað</label><br>
+						<label>Simi: <br> <input type="text" placeholder="+354 812 3456"></label><br>
 						<label>Heimilisfang: <br> <input type="text"></label><br>
-						<input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista
+						<label><input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista</label>
 			</fieldset>
-			<br><br><br>
-			<fieldset class="form_content__person">
-						<legend>Persónuupplýsingar</legend>
-						
-						<label>Nafn: <br> <input type="text"></label><br>
-						<label>Kennitala: <br> <input type="text"></label><br>
-						<label>
-							Kyn:<br>
-							<input name="ValueForSex" type="radio" value="karl">Karl<br>
-							<input name="ValueForSex" type="radio" value="karl">Kona<br>
-							<input name="ValueForSex" type="radio" value="karl">Annað<br>
+			
+			<fieldset class="form_content__creditInfo">
+						<legend>Greiðsluupplýsingar</legend>
+						<label>Greiða með: <br><select>
+											 <option value="kredit">KreditKorti</option>
+											 <option value="trans">Millifærslu</option>
+											 <option value="cashmoneys">Riðufé</option>
+										   </select></label><br>
+						<label>Nafn á korti: <br> <input type="text"></label><br>
+						<label>Kortanúmer: <br> <input type="text" placeholder="5999-9999-9999-9999"></label><br>
+						<label>Greiða með:<br>
+							Mán	<select>
+									<option value="01">01</option>
+									<option value="02">02</option>
+									<option value="03">03</option>
+									<option value="04">04</option>
+									<option value="05">05</option>
+									<option value="06">06</option>
+									<option value="07">07</option>
+									<option value="08">08</option>
+									<option value="09">09</option>
+									<option value="10">10</option>
+									<option value="11">11</option>
+									<option value="12">12</option>
+								</select>	
+							 Ár	<select>
+									<option value="2017">2017</option>
+									<option value="2018">2018</option>
+									<option value="2019">2019</option>
+									<option value="2020">2020</option>
+								</select>
 						</label>
-						<label>Simi: <br> <input type="text"></label><br>
-						<label>Heimilisfang: <br> <input type="text"></label><br>
-						<input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista
 			</fieldset>
 			
 		</form>

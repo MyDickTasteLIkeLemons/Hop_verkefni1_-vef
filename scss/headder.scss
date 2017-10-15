@@ -1,5 +1,6 @@
 .headder {
-  width:100%;
+  width:102%;
+  margin-left:-10px;
   //for Kaupa and About Headder
   &__content {
     width: 100%;
@@ -11,7 +12,7 @@
       color: $font-color-nav;
       font-size: $h3_font_size;
       padding-top: 7em;
-      padding-left: 1em;
+      padding-left: 0.3em;
     }
   }
   //for Index Headder
