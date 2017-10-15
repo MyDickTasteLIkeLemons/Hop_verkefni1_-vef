@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Kaupa</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700i|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="grid.css">
+	<!-- <link rel="stylesheet" href="grid.css">-->
   </head>
   <body>
 		<!--NAVIGATION START-->
@@ -30,18 +30,40 @@
    
    <section class="main_content">
 		<form class="form_content">
+		
 			<fieldset class="form_content__person">
 						<legend>Persónuupplýsingar</legend>
-						<label>Nafn:  <input type="text"></label><br>
-						<label>Netfang: <input type="email"> Frekari upplýsingar verða sendar á netfagn</label><br>
+						
+						<label>Nafn: <br> <input type="text"></label><br>
+						<label>Kennitala: <br> <input type="text"></label><br>
+						<label>
+							Kyn:<br>
+							<input name="ValueForSex" type="radio" value="karl">Karl<br>
+							<input name="ValueForSex" type="radio" value="karl">Kona<br>
+							<input name="ValueForSex" type="radio" value="karl">Annað<br>
+						</label>
+						<label>Simi: <br> <input type="text"></label><br>
+						<label>Heimilisfang: <br> <input type="text"></label><br>
+						<input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista
 			</fieldset>
-			<fieldset class="form_content__credinfo">
+			<br><br><br>
+			<fieldset class="form_content__person">
 						<legend>Persónuupplýsingar</legend>
-						<label>Nafn:  <input type="text"></label><br>
-						<label>Netfang: <input type="email"> Frekari upplýsingar verða sendar á netfagn</label><br>
+						
+						<label>Nafn: <br> <input type="text"></label><br>
+						<label>Kennitala: <br> <input type="text"></label><br>
+						<label>
+							Kyn:<br>
+							<input name="ValueForSex" type="radio" value="karl">Karl<br>
+							<input name="ValueForSex" type="radio" value="karl">Kona<br>
+							<input name="ValueForSex" type="radio" value="karl">Annað<br>
+						</label>
+						<label>Simi: <br> <input type="text"></label><br>
+						<label>Heimilisfang: <br> <input type="text"></label><br>
+						<input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista
 			</fieldset>
+			
 		</form>
-		<button class="button main_content__button_extra">Panta</button>
    </section>
    
   <!--EVERYTHING UNDER COMMENT IS READY NO NEED TO ALTER-->
