@@ -5,6 +5,9 @@
   &__title {
 
     margin-top: 5em;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
 
   }
 
@@ -17,16 +20,18 @@
   }
 
   &__quote {
-
+    font-size: 1.3em;
+    font-style: italic;
     margin-top: 3em;
     margin-bottom: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
+    width: 100%;
 
-    @media (min-width: $phone-max-width) and (max-width: $tablet-max-width) {
+
+
+    @media (min-width: $phone-max-width) {
       float: right;
-      margin-right: 0em;
-      margin-left: 4em;
+      margin-right: 3%;
+      margin-left: 5%;
       width: 50%;
     }
 
