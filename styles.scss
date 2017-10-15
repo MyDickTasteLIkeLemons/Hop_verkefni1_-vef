@@ -33,9 +33,17 @@ img {
   width: 100%;
 }
 
+.main_content{
+  width:100%;
+  margin-top:$margin_for_one_hundred;
+  margin-bottom:$margin_for_eighty;
+}
+
 @import "scss/Grid";
 @import "scss/button";
 @import "scss/headder";
 @import "scss/navigation";
 @import "scss/animations";
 @import "scss/footer";
+@import "scss/aboutContent";
+@import "scss/kaupaContent";

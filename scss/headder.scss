@@ -1,6 +1,5 @@
 .headder {
   width:100%;
-  margin-bottom:$margin_for_one_hundred;
   //for Kaupa and About Headder
   &__content {
     width: 100%;
@@ -22,7 +21,7 @@
     background: transparent url(img/bg.jpg) no-repeat;
     background-size: cover;
 	display:flex;
-
+	
     &__content {
       margin: auto;
 	  &__display_1{
