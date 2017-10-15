@@ -5,7 +5,6 @@
     <title>Kaupa</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700i|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="grid.css">
   </head>
   <body>
 		<!--NAVIGATION START-->
@@ -30,32 +29,33 @@
    
    <section class="main_content">
 		<form class="form_content">
-		
-			<fieldset class="form_content__person">
+		    <!--------------------------PerSónulýsing------------------------------------------------------------------>
+			<fieldset class="form_content__person person_extra_right">
 						<legend>Persónuupplýsingar</legend>
-						
-						<label>Nafn: <br> <input type="text"></label><br>
-						<label>Kennitala: <br> <input type="text" placeholder="123456-7890"></label><br>
+						<label>Nafn: <br> <input class="resizeinput" type="text"></label><br>
+						<label>Kennitala: <br> <input class="resizeinput" type="text" placeholder="123456-7890"></label><br>
 							Kyn:<br>
 							<label><input name="ValueForSex" type="radio" value="kona">Kona</label><br>
 							<label><input name="ValueForSex" type="radio" value="karl">Karl</label><br>
 							<label><input name="ValueForSex" type="radio" value="annad">Annað</label><br>
-						<label>Simi: <br> <input type="text" placeholder="+354 812 3456"></label><br>
-						<label>Heimilisfang: <br> <input type="text"></label><br>
+						<label>Simi: <br> <input type="text" class="resizeinput" placeholder="+354 812 3456"></label><br>
+						<label>Heimilisfang: <br> <input class="resizeinput" type="text"></label><br>
 						<label><input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista</label>
 			</fieldset>
+			<!--------------------------Perónulýsing------------------------------------------------------------------>
 			
-			<fieldset class="form_content__creditInfo">
+			<!--------------------------Greiðsluupplýsingar------------------------------------------------------------------>
+			<fieldset class="form_content__person person_extra_left">
 						<legend>Greiðsluupplýsingar</legend>
-						<label>Greiða með: <br><select>
+						<label>Greiða með: <br><select class="resizeinput">
 											 <option value="kredit">KreditKorti</option>
 											 <option value="trans">Millifærslu</option>
 											 <option value="cashmoneys">Riðufé</option>
 										   </select></label><br>
-						<label>Nafn á korti: <br> <input type="text"></label><br>
-						<label>Kortanúmer: <br> <input type="text" placeholder="5999-9999-9999-9999"></label><br>
+						<label>Nafn á korti: <br> <input  class="resizeinput" type="text"></label><br>
+						<label>Kortanúmer: <br> <input class="resizeinput" type="text" placeholder="5999-9999-9999-9999"></label><br>
 						<label>Greiða með:<br>
-							Mán	<select>
+							Mán<select class="offset">
 									<option value="01">01</option>
 									<option value="02">02</option>
 									<option value="03">03</option>
@@ -69,7 +69,7 @@
 									<option value="11">11</option>
 									<option value="12">12</option>
 								</select>	
-							 Ár	<select>
+							 Ár <select class="offset">
 									<option value="2017">2017</option>
 									<option value="2018">2018</option>
 									<option value="2019">2019</option>
@@ -77,11 +77,14 @@
 								</select>
 						</label>
 			</fieldset>
-			
 		</form>
+		<!--------------------------Greiðsluupplýsingar------------------------------------------------------------------>
+		<div class="center_button_fo">
+			<button class="button panta_extra_button">Panta</button>
+		</div>
    </section>
-   
   <!--EVERYTHING UNDER COMMENT IS READY NO NEED TO ALTER-->
+  
   <!--FOOTER START-->
   <footer class="footer">
 		<div class="footer__info">
