@@ -1,0 +1,48 @@
+.about {
+  margin-left: 1em;
+  margin-right: 1em;
+
+  &__title {
+
+    margin-top: 5em;
+
+  }
+
+  &__about_wrapper {
+    display: flex;
+  }
+
+  &__text {
+    margin-top: 1em;
+  }
+
+  &__quote {
+
+    margin-top: 3em;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    @media (min-width: $phone-max-width) and (max-width: $tablet-max-width) {
+      float: right;
+      margin-right: 0em;
+      margin-left: 4em;
+      width: 50%;
+    }
+
+    & p.about__quoteText{
+      font-size: 1.3em;
+
+    }
+    & p.about__quoteText::first-line {
+
+      //add property to allign the letters instaed of the comma
+    }
+
+    & footer {
+      margin-top: 2em;
+      font-size: 0.7em;
+    }
+
+  }
+}
