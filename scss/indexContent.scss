@@ -8,6 +8,7 @@
   }
   &__checkBoxBigText {
     margin-top: 0;
+    display: flex;
   }
   &__checkField{
     margin-top: 5em;
@@ -33,8 +34,6 @@
     @media (max-width: 600px) {
       width: 95%;
       margin: 0 auto;
-
-
       justify-content: space-around;
       height: 20em;
 
@@ -43,9 +42,17 @@
   &__usersBox {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   &__userProfile {
     width: 32.2%;
+    margin-bottom: 2em;
+    @media (max-width: 600px) {
+      width: 50%;
+    }
+    @media (max-width: 400px) {
+      width: 100%;
+    }
   }
   &__userProfile:nth-child(3){
     margin: 0em;
@@ -63,8 +70,10 @@
     height: 7em;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     text-align: center;
+    @media (min-width: 600px) {
+      justify-content: space-between;
+    }
   }
   &__userQuote {
     font-style: italic;
