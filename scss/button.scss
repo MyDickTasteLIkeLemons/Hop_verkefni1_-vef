@@ -1,33 +1,42 @@
 .button {
   width: 6em;
   padding: 0.3125em;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.96em;
+  color: #eee;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  background-color: #666;
   border: 1px solid #666;
   border-radius: 0.25em;
-  color: #eee;
-  background-color: #666;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  cursor: pointer;
-  font-family: 'Open Sans', sans-serif;
-  text-decoration: none;
-  text-align: center;
-  font-size:1.96em;
 
-  &:hover{
-    background-color:#333;
+  &:hover {
+    background-color: #333;
     transition: background-color 500ms ease;
   }
-  &__extra_for_nav{
-    width:4em;
-	font-size:1em;
+
+  &__extra_for_nav {
+    width: 4em;
+    font-size: 1em;
   }
-  &__um{
+
+  &__um {
     background-color: #333;
-	border: 1px solid #333;
+    border: 1px solid #333;
   }
 }
-.panta_extra_button{
-  font-size:1em;
-  width:20%;
+
+.panta_extra_button {
+  width: 20%;
+  font-size: 1em;
+}
+
+.center_button_for_conent {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }

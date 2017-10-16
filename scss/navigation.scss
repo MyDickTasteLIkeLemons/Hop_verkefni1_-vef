@@ -1,33 +1,26 @@
 .navigation {
-  width: 102%;
-  margin-left:-10px;
-  margin-bottom:-50px;
-  
-  z-index: 1;
-
-  //Transparent background START
-  background-color: #333;//gera transparrent
-  border: 1px solid #333;
-  opacity:0.9;
-  //Transparent background END
-  
-  //til að gera stykki Navigation START
   position: sticky;
-  top: 0; 
-  //til að gera stykki Navigation END
- 
-  color: $font-color-nav;
+  top: 0;
+  z-index: 1;
   display: flex;
+  width: 102%;
+  margin-bottom: -3.125em;
+  margin-left: -0.625em;
+  color: $font-color-nav;
+  background-color: #333;
+  border: 1px solid #333;
+  opacity: 0.9;
   justify-content: space-between;
-  
+
   &__title {
-	padding:10px;
-	font-size:$h1_font_size;
-	font-family: 'Roboto Slab', serif;
+    padding: 10px;
+    font-family: "Roboto Slab", serif;
+    font-size: $h1_font_size;
   }
- 
+
   &__buttons {
-    margin-right:0.250em;
-    padding:9px; 
+    padding: 9px;
+    margin-right: 0.25em;
   }
+
 }

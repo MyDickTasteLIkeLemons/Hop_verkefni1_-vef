@@ -1,23 +1,10 @@
-/**----------------------------------------------------------------------------------
-Til að byrja með við ætlum að reyna að hafa allar breytur i þessu skjali 
-E.I stærð skjárs,stærð texta, útlit texta , margin. Ástæðan fyrir þetta er að það getur 
-komið oft fyrir að margir aðilar  að vinna i mismunandi pörtum á siðu (lika aðrar siður) 
-þá gera þeir sinar eigin stærið en svo er hægt að lenda i þetta mun ekki lita eins á 
-öllum siðum E.I 3 mismunandi margin reglur, texta stærðir .... 
-Notar breytur úr þessu skjali og ef það er ekki til þá bæta hana við i þetta skjal
------------------------------------------------------------------------------------**/
-//Grunnstærðir fyir öll tækin sem mun vera stuðið
 $desktop-max-width: 1200px;
 $tablet-max-width: 600px;
 $phone-max-width: 400px;
-//Grunnstærð fyrir texta stærð
-$base-font-size:16px;
-//fylgja allar aðrar leturgerðir eftirfarandi skala: 12 14 16 18 21 24 36 48 60 72
-//Open Sans er letur meginmál, Roboto Slab er notað fyrir fyrirsagnir
-//bæta margins sem má nota 
-$font-color-nav:#FFFFFF;
-$h1_font_size:1.5em;
-$h3_font_size:2.250em;
-$h4_font_size:3.125em;
+$base-font-size: 16px;
+$font-color-nav:#fff;
+$h1_font_size: 1.5em;
+$h3_font_size: 2.25em;
+$h4_font_size: 3.125em;
 $margin_for_one_hundred: 9.375em;
-$margin_for_eighty:5em;
+$margin_for_eighty: 5em;

@@ -1,35 +1,32 @@
 <!doctype html>
 <html class="grid" lang="is">
+
   <head>
     <meta charset="utf-8">
     <title>Kaupa</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700i|Roboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
   </head>
+  
   <body>
-		<!--NAVIGATION START-->
-	    <nav class="navigation">
+	 
+	   <nav class="navigation">
 			<h1 class="navigation__title">Fooþjónustan</h1>
 			<div class="navigation__buttons">
 				 <button class="button button__extra_for_nav button__um" onclick="window.location.href='about.html'">Um</button>
 				 <button class="button hidden button__extra_for_nav" onclick="window.location.href='kaupa.html'">Kaupa</button>
 			</div>
 		</nav>
-		<!--NAVIGATION END -->
 		
-		<!--HEADDER START-->
 		<header class="headder">
 			<div class="headder__content">
 				<h3 class="headder__content__title">Kaupa</h3>
 			</div>
 		</header>
-		<!--HEADDER END--->
-		
-   <!-- ALL ABOVE THIS COMMENT IS READY NO NEED TO ALTER -->
    
-   <section class="main_content">
+   <main class="main_content">
 		<form class="form_content">
-		    <!--------------------------PerSónulýsing------------------------------------------------------------------>
+		
 			<fieldset class="form_content__person person_extra_right">
 						<legend>Persónuupplýsingar</legend>
 						<label>Nafn: <br> <input class="resizeinput" type="text"></label><br>
@@ -42,19 +39,17 @@
 						<label>Heimilisfang: <br> <input class="resizeinput" type="text"></label><br>
 						<label><input name="ValueForEmail" type="checkbox" value="1">Skrá mig inn á postlista</label>
 			</fieldset>
-			<!--------------------------Perónulýsing------------------------------------------------------------------>
 			
-			<!--------------------------Greiðsluupplýsingar------------------------------------------------------------------>
 			<fieldset class="form_content__person person_extra_left">
 						<legend>Greiðsluupplýsingar</legend>
-						<label>Greiða með: <br><select class="resizeinput">
+						<label>Greiða með:</label> <br><select class="resizeinput">
 											 <option value="kredit">KreditKorti</option>
 											 <option value="trans">Millifærslu</option>
 											 <option value="cashmoneys">Riðufé</option>
-										   </select></label><br>
+										   </select><br>
 						<label>Nafn á korti: <br> <input  class="resizeinput" type="text"></label><br>
 						<label>Kortanúmer: <br> <input class="resizeinput" type="text" placeholder="5999-9999-9999-9999"></label><br>
-						<label>Greiða með:<br>
+						<label>Greiða með:</label><br>
 							Mán<select class="offset">
 									<option value="01">01</option>
 									<option value="02">02</option>
@@ -75,17 +70,15 @@
 									<option value="2019">2019</option>
 									<option value="2020">2020</option>
 								</select>
-						</label>
+						
 			</fieldset>
 		</form>
-		<!--------------------------Greiðsluupplýsingar------------------------------------------------------------------>
 		<div class="center_button_for_conent">
-		<button class="button panta_extra_button">Panta</button>
+			<button class="button panta_extra_button">Panta</button>
 		</div>
-   </section>
-  <!--EVERYTHING UNDER COMMENT IS READY NO NEED TO ALTER-->
+   </main>
+
   
-  <!--FOOTER START-->
   <footer class="footer">
 		<div class="footer__info">
 			<div class="footer__info__address">
@@ -104,6 +97,6 @@
 			</div>
 		</div>
 	</footer>
-	<!--FOOTER END-->
+	
   </body>
 </html>

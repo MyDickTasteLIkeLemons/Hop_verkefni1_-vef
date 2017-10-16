@@ -20,19 +20,18 @@
   .offset {
     margin-left:10px;
   }
- 
-  select {
-    margin-bottom: 1em;
-    margin-right: 1em;
-    border-radius: 4px;
-    width: 20%;
-  }
   
   input {
     margin-bottom: 1em;
     margin-right: 0.5em;
 	border-radius: 4px;
 	font-size:1.5em;
+  }
+  select {
+    margin-bottom: 1em;
+    margin-right: 1em;
+    border-radius: 4px;
+    width: 20%;
   }
   
   legend {
@@ -45,13 +44,6 @@
     margin-bottom: 1em;
   }
 }
-
-.center_button_for_conent {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 @media (min-width: $phone-max-width) {
 	.form_content {
 	  display:flex;
@@ -61,7 +53,11 @@
 @media (max-width: $phone-max-width) {
 	.form_content {
 		margin-left:20px;
+		.person_extra_left {
+		 margin-left:-0.625em;
+		}
 	}
+	.panta_extra_button{width:60%;}
 	.form_content__person{width:90%;}
 }
 

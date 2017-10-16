@@ -1,13 +1,9 @@
 .about {
- 
-
   &__title {
-
     margin-top: 5em;
-    font-family: 'Roboto Slab', sans-serif;
-    font-weight: 700;
+    font-family: "Roboto Slab", sans-serif;
     font-size: 1.5em;
-
+    font-weight: 700;
   }
 
   &__about_wrapper {
@@ -19,34 +15,26 @@
   }
 
   &__quote {
-    font-size: 1.3em;
-    font-style: italic;
+    width: 100%;
     margin-top: 3em;
     margin-bottom: 3em;
-    width: 100%;
-
-
+    font-size: 1.3em;
+    font-style: italic;
 
     @media (min-width: $phone-max-width) {
       float: right;
+      width: 50%;
       margin-right: 3%;
       margin-left: 5%;
-      width: 50%;
     }
 
-    & p.about__quoteText{
+    .about__quoteText {
       font-size: 1.3em;
-
-    }
-    & p.about__quoteText::first-line {
-
-      //add property to allign the letters instaed of the comma
     }
 
-    & footer {
+    footer { /* stylelint-disable-line */
       margin-top: 2em;
       font-size: 0.7em;
     }
-
   }
 }
