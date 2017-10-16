@@ -1,31 +1,36 @@
 @charset "UTF-8";
-/*Þetta skjal bara i raun inniheldur allar grunnstillingar á öllum siðum*/
-/*Tryggjum að öll tög eru með Border-box  og fjarlægjum margin og padding*/
+/* Þetta skjal bara i raun inniheldur allar grunnstillingar á öllum siðum */
+/* Tryggjum að öll tög eru með Border-box  og fjarlægjum margin og padding */
 *, *:before, *:after {
+  /* stylelint-disable-line */
   box-sizing: inherit;
   padding: 0;
   margin: 0; }
 
-/*setjum border-box á allt ásamt grunn letur stærð og linubil*/
+/* setjum border-box á allt ásamt grunn letur stærð og linubil */
 html {
+  /* stylelint-disable-line */
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  line-height: 1.5;
-  font-family: 'Open Sans', sans-serif; }
+  line-height: 1.5; }
 
-/*tryggjum að i havaða skjáar stærð sem er öll gögin okkar eru alltaf eru á grindi annars ekki byrt*/
+/* tryggjum að i havaða skjáar stærð sem er öll gögin okkar eru alltaf eru á grindi annars ekki byrt */
 @media (min-width: 1200px) {
   body {
+    /* stylelint-disable-line */
     max-width: 1200px;
     margin: 0 auto;
-    overflow-x: hidden; } }
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif; } }
 
 @media (max-width: 400px) {
   .hidden {
     display: none; } }
 
-/*Allar myndir munu alltaf filla út foreldran sinn þannig wrapper um myndina ákveður stærð mynds*/
+/* Allar myndir munu alltaf filla út foreldran sinn þannig wrapper um myndina ákveður stærð mynds */
 img {
+  /* stylelint-disable-line */
   width: 100%; }
 
 .main_content {
