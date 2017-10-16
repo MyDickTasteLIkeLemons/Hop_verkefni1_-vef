@@ -1,24 +1,89 @@
 .FrontPage {
-
+  margin-bottom: 5em;
   &__checkBox {
     display: flex;
   }
   &__checkIcon {
     width: 1.8em;
   }
+  &__checkBoxBigText {
+    margin-top: 0;
+    display: flex;
+  }
   &__checkField{
     margin-top: 5em;
     margin-bottom: 5em;
     display: flex;
+    @media (max-width: 600px) {
+      flex-direction: column;
+    }
   }
   &__checkImageBox {
     width: 50%;
+    @media (max-width: 600px) {
+      align-content: center;
+      width: 95%;
+      margin: 0 auto;
+    }
   }
   &__checkFieldText {
+    padding-left: 1em;
+    padding-right: 1em;
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    @media (max-width: 600px) {
+      width: 95%;
+      margin: 0 auto;
+      justify-content: space-around;
+      height: 20em;
+      margin-bottom: 2em;
+
+    }
+  }
+  &__usersBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+  &__userProfile {
+    width: 32.2%;
+    margin-bottom: 2em;
+    @media (max-width: 600px) {
+      width: 50%;
+    }
+    @media (max-width: 400px) {
+      width: 100%;
+    }
+  }
+  &__userProfile:nth-child(3){
+    margin: 0em;
+  }
+  &__userImage {
+
+  }
+  &__userImage img {
+    width: 80%;
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+  }
+  &__userInfo {
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    @media (min-width: 600px) {
+      justify-content: space-between;
+    }
+  }
+  &__userQuote {
+    font-style: italic;
+  }
+  &__userDetail {
+
   }
 
 }
