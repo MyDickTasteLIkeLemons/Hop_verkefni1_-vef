@@ -234,18 +234,30 @@ img {
   margin-bottom: 5em; }
   .FrontPage__checkBox {
     display: flex; }
+  .FrontPage__checkIcon img {
+    width: 1.5em; }
   .FrontPage__checkIcon {
-    width: 1.8em; }
+    padding-top: 0.2em;
+    width: 24px; }
+  .FrontPage__checkText {
+    margin-left: 0.5em; }
   .FrontPage__checkBoxBigText {
     margin-top: 0;
-    display: flex; }
+    font-size: 1.4em;
+    display: flex;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: bold; }
   .FrontPage__checkField {
     margin-top: 5em;
     margin-bottom: 5em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
     display: flex; }
     @media (max-width: 600px) {
       .FrontPage__checkField {
-        flex-direction: column; } }
+        flex-direction: column;
+        margin-right: 0em;
+        margin-left: 0em; } }
   .FrontPage__checkImageBox {
     width: 50%; }
     @media (max-width: 600px) {
@@ -254,8 +266,6 @@ img {
         width: 95%;
         margin: 0 auto; } }
   .FrontPage__checkFieldText {
-    padding-left: 1em;
-    padding-right: 1em;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -270,11 +280,15 @@ img {
   .FrontPage__usersBox {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 12em; }
+    @media (max-width: 800px) {
+      .FrontPage__usersBox {
+        margin-bottom: 5em; } }
   .FrontPage__userProfile {
-    width: 32.2%;
-    margin-bottom: 2em; }
-    @media (max-width: 600px) {
+    width: 33%;
+    margin-bottom: 6em; }
+    @media (max-width: 800px) {
       .FrontPage__userProfile {
         width: 50%; } }
     @media (max-width: 400px) {
@@ -287,7 +301,11 @@ img {
     border-radius: 50%;
     display: block;
     margin: auto; }
+    @media (max-width: 801px) {
+      .FrontPage__userImage img {
+        width: 90%; } }
   .FrontPage__userInfo {
+    padding-top: 3em;
     height: 7em;
     display: flex;
     flex-direction: column;
@@ -296,7 +314,26 @@ img {
       .FrontPage__userInfo {
         justify-content: space-between; } }
   .FrontPage__userQuote {
-    font-style: italic; }
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    @media (min-width: 600px) {
+      .FrontPage__userQuote {
+        padding-left: 1.5em;
+        padding-right: 1.5em; } }
+  .FrontPage__userDetail {
+    margin-top: 2.5em; }
+
+.indexlowerbutton {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3em;
+  font-size: 1.3em; }
+  .indexlowerbutton__text {
+    margin-bottom: 1em; }
+  .indexlowerbutton__button {
+    margin-left: 30px; }
 
 .form_content {
   width: 100%; }
