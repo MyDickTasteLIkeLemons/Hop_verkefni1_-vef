@@ -6,11 +6,12 @@
   }
 
   &__checkIcon {
-    width: 1.5em;
+    flex: 1;
     padding-top: 0.2em;
   }
 
   &__checkText {
+    flex: 14;
     margin-left: 0.5em;
   }
 
