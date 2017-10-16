@@ -141,25 +141,38 @@ img {
 .animation {
   opacity: 0;
   -webkit-animation: fadeIn ease-in 1;
+  /* stylelint-disable-line */
   -moz-animation: fadeIn ease-in 1;
+  /* stylelint-disable-line */
   animation: fadeIn ease-in 1;
+  /* stylelint-disable-line */
   -webkit-animation-fill-mode: forwards;
+  /* stylelint-disable-line */
   -moz-animation-fill-mode: forwards;
+  /* stylelint-disable-line */
   animation-fill-mode: forwards;
   -webkit-animation-duration: 1s;
+  /* stylelint-disable-line */
   -moz-animation-duration: 1s;
+  /* stylelint-disable-line */
   animation-duration: 1s; }
   .animation__one {
     -webkit-animation-delay: 0.7s;
+    /* stylelint-disable-line */
     -moz-animation-delay: 0.7s;
+    /* stylelint-disable-line */
     animation-delay: 0.7s; }
   .animation__two {
     -webkit-animation-delay: 1.5s;
+    /* stylelint-disable-line */
     -moz-animation-delay: 1.5s;
+    /* stylelint-disable-line */
     animation-delay: 1.5s; }
   .animation__three {
     -webkit-animation-delay: 2.3s;
+    /* stylelint-disable-line */
     -moz-animation-delay: 2.3s;
+    /* stylelint-disable-line */
     animation-delay: 2.3s; }
 
 .footer {
