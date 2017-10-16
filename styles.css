@@ -81,7 +81,7 @@ img {
   .headder__content {
     width: 100%;
     height: 31.25em;
-    background: transparent url("img/bg-subpage.jpg") no-repeat;
+    background: transparent url("img/bg-subpage.jpg") no-repeat fixed 50% 50%;
     background-size: cover; }
     .headder__content__title {
       padding-top: 7em;
@@ -92,7 +92,7 @@ img {
     display: flex;
     width: 100%;
     height: 100vh;
-    background: transparent url("img/bg.jpg") no-repeat;
+    background: transparent url("img/bg.jpg") no-repeat fixed 50% 50%;
     background-size: cover; }
     .headder__extra_index__content {
       margin: auto; }
@@ -234,30 +234,28 @@ img {
   margin-bottom: 5em; }
   .FrontPage__checkBox {
     display: flex; }
-  .FrontPage__checkIcon img {
-    width: 1.5em; }
   .FrontPage__checkIcon {
-    padding-top: 0.2em;
-    width: 24px; }
+    width: 1.5em;
+    padding-top: 0.2em; }
   .FrontPage__checkText {
     margin-left: 0.5em; }
   .FrontPage__checkBoxBigText {
-    margin-top: 0;
-    font-size: 1.4em;
     display: flex;
+    margin-top: 0;
     font-family: "Roboto Slab", sans-serif;
+    font-size: 1.4em;
     font-weight: bold; }
   .FrontPage__checkField {
+    display: flex;
     margin-top: 5em;
-    margin-bottom: 5em;
     margin-right: 0.2em;
-    margin-left: 0.2em;
-    display: flex; }
+    margin-bottom: 5em;
+    margin-left: 0.2em; }
     @media (max-width: 600px) {
       .FrontPage__checkField {
-        flex-direction: column;
-        margin-right: 0em;
-        margin-left: 0em; } }
+        margin-right: 0;
+        margin-left: 0;
+        flex-direction: column; } }
   .FrontPage__checkImageBox {
     width: 50%; }
     @media (max-width: 600px) {
@@ -266,16 +264,16 @@ img {
         width: 95%;
         margin: 0 auto; } }
   .FrontPage__checkFieldText {
-    width: 50%;
     display: flex;
+    width: 50%;
     flex-direction: column;
     justify-content: space-around; }
     @media (max-width: 600px) {
       .FrontPage__checkFieldText {
         width: 95%;
+        height: 20em;
         margin: 0 auto;
         justify-content: space-around;
-        height: 20em;
         margin-bottom: 2em; } }
   .FrontPage__usersBox {
     display: flex;
@@ -295,41 +293,41 @@ img {
       .FrontPage__userProfile {
         width: 100%; } }
   .FrontPage__userProfile:nth-child(3) {
-    margin: 0em; }
+    margin: 0; }
   .FrontPage__userImage img {
-    width: 80%;
-    border-radius: 50%;
     display: block;
-    margin: auto; }
+    width: 80%;
+    margin: auto;
+    border-radius: 50%; }
     @media (max-width: 801px) {
       .FrontPage__userImage img {
         width: 90%; } }
   .FrontPage__userInfo {
-    padding-top: 3em;
-    height: 7em;
     display: flex;
-    flex-direction: column;
-    text-align: center; }
+    height: 7em;
+    padding-top: 3em;
+    text-align: center;
+    flex-direction: column; }
     @media (min-width: 600px) {
       .FrontPage__userInfo {
         justify-content: space-between; } }
   .FrontPage__userQuote {
-    font-style: italic;
     display: flex;
+    font-style: italic;
     flex-direction: column;
     justify-content: center; }
     @media (min-width: 600px) {
       .FrontPage__userQuote {
-        padding-left: 1.5em;
-        padding-right: 1.5em; } }
+        padding-right: 1.5em;
+        padding-left: 1.5em; } }
   .FrontPage__userDetail {
     margin-top: 2.5em; }
 
 .indexlowerbutton {
   display: flex;
-  flex-direction: column;
   margin-top: 3em;
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  flex-direction: column; }
   .indexlowerbutton__text {
     margin-bottom: 1em; }
   .indexlowerbutton__button {

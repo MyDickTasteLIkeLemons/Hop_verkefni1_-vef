@@ -1,39 +1,41 @@
 .FrontPage {
   margin-bottom: 5em;
+
   &__checkBox {
     display: flex;
   }
-  &__checkIcon img{
-    width: 1.5em;
-  }
 
   &__checkIcon {
+    width: 1.5em;
     padding-top: 0.2em;
-    width: 24px;
   }
+
   &__checkText {
     margin-left: 0.5em;
   }
 
   &__checkBoxBigText {
-    margin-top: 0;
-    font-size: 1.4em;
     display: flex;
+    margin-top: 0;
     font-family: "Roboto Slab", sans-serif;
+    font-size: 1.4em;
     font-weight: bold;
   }
-  &__checkField{
-    margin-top: 5em;
-    margin-bottom: 5em;
-    margin-right: 0.2em;
-    margin-left: 0.2em;
+
+  &__checkField {
     display: flex;
+    margin-top: 5em;
+    margin-right: 0.2em;
+    margin-bottom: 5em;
+    margin-left: 0.2em;
+
     @media (max-width: 600px) {
+      margin-right: 0;
+      margin-left: 0;
       flex-direction: column;
-      margin-right: 0em;
-      margin-left: 0em;
     }
   }
+
   &__checkImageBox {
     width: 50%;
     @media (max-width: 600px) {
@@ -42,20 +44,21 @@
       margin: 0 auto;
     }
   }
+
   &__checkFieldText {
-    width: 50%;
     display: flex;
+    width: 50%;
     flex-direction: column;
     justify-content: space-around;
     @media (max-width: 600px) {
       width: 95%;
+      height: 20em;
       margin: 0 auto;
       justify-content: space-around;
-      height: 20em;
       margin-bottom: 2em;
-
     }
   }
+
   &__usersBox {
     display: flex;
     flex-wrap: wrap;
@@ -65,6 +68,7 @@
       margin-bottom: 5em;
     }
   }
+
   &__userProfile {
     width: 33%;
     margin-bottom: 6em;
@@ -74,42 +78,45 @@
     @media (max-width: 400px) {
       width: 100%;
     }
-  }
-  &__userProfile:nth-child(3){
-    margin: 0em;
-  }
-  &__userImage {
 
   }
+
+  &__userProfile:nth-child(3) {
+    margin: 0;
+  }
+
   &__userImage img {
+    display: block;
     width: 80%;
+    margin: auto;
     border-radius: 50%;
-    display:block;
-    margin:auto;
     @media (max-width: 800px + 1) {
       width: 90%;
     }
   }
+
   &__userInfo {
-    padding-top: 3em;
-    height: 7em;
     display: flex;
-    flex-direction: column;
+    height: 7em;
+    padding-top: 3em;
     text-align: center;
+    flex-direction: column;
     @media (min-width: 600px) {
       justify-content: space-between;
     }
   }
+
   &__userQuote {
-    font-style: italic;
     display: flex;
+    font-style: italic;
     flex-direction: column;
     justify-content: center;
     @media (min-width: 600px) {
-      padding-left: 1.5em;
       padding-right: 1.5em;
+      padding-left: 1.5em;
     }
   }
+
   &__userDetail {
     margin-top: 2.5em;
   }
@@ -118,14 +125,15 @@
 
 .indexlowerbutton {
   display: flex;
-  flex-direction: column;
   margin-top: 3em;
-  font-size:1.3em;
+  font-size: 1.3em;
+  flex-direction: column;
+
   &__text {
-	margin-bottom:1em;
+    margin-bottom: 1em;
   }
 
   &__button {
-	margin-left:30px;
+    margin-left: 30px;
   }
 }
