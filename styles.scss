@@ -49,6 +49,11 @@ img { /* stylelint-disable-line */
   margin-bottom: $margin_for_eighty;
 }
 
+.margnifier {
+  width: 102% !important;
+  margin-left: -0.625em;
+}
+
 @import "scss/button";
 @import "scss/headder";
 @import "scss/navigation";
